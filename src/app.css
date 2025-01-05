@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.stats-card {
+  @apply card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300;
+}
+
+.stats-title {
+  @apply text-xl font-bold flex items-center gap-2 mb-4;
+}
+
+.stats-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.stat-item {
+  @apply flex items-center gap-2 p-2 rounded-lg bg-base-200;
+}
+
+.stat-value {
+  @apply text-lg font-semibold;
+}
