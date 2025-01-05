@@ -19,6 +19,15 @@ _A beautiful life statistics calculator offering fascinating insights into your 
 
 This application calculates and displays various statistics and interesting facts about your life based on your birthdate. It provides a modern, responsive interface with real-time updates and beautiful visualizations.
 
+## 🚀 Deploy on Render
+
+**Birthday Statistics Calculator** application is live! You can access it at the following link:
+
+<div align="center">
+  <a href="https://birthday-statistics.onrender.com" rel="noopener noreferrer"  target="_blank"  class="btn btn-primary">Visit the Application</a>
+</div>
+
+
 ## 📊 Features
 
 ### 🎂 Birth Details
