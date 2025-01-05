@@ -25,7 +25,7 @@
       <Calendar class="text-pink-500" />
       <div>
         <div class="text-sm opacity-75">Days Until Next Birthday</div>
-        <div class="stat-value">{daysUntilBirthday}</div>
+        <div class="stat-value">{daysUntilBirthday.toLocaleString('en-US')}</div>
       </div>
     </div>
   </div>

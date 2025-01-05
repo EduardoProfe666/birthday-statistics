@@ -1,5 +1,7 @@
 import { format } from 'date-fns';
+// @ts-ignore
 import { Lunar } from 'lunar-javascript';
+// @ts-ignore
 import { HDate } from '@hebcal/core';
 import { getIslamicDate } from './islamicUtils';
 

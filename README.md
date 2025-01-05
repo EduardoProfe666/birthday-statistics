@@ -1,15 +1,28 @@
-# 🌟 Life Statistics Calculator
+<div align="center">
 
-A beautiful and comprehensive life statistics calculator that provides fascinating insights about your life journey through various metrics and calculations.
+![Birthday Statistics](/public/banner.png)
+
+# Birthday Statistics Calculator 🎂
+
+[![Made with Svelte][svelte-badge]][svelte-url]
+[![Made with Vite][vite-badge]][vite-url]
+[![Made with Tailwind CSS][tailwind-badge]][tailwind-url]
+[![TypeScript][ts-badge]][ts-url]
+[![License][license-badge]][license-url]
+[![PRs Welcome][prs-badge]][prs-url]
+
+_A beautiful life statistics calculator offering fascinating insights into your life journey through various metrics_
+
+</div>
 
 ## 🎯 Overview
 
-This application calculates and displays various statistics and interesting facts about your life based on your birth date. It provides a modern, responsive interface with real-time updates and beautiful visualizations.
+This application calculates and displays various statistics and interesting facts about your life based on your birthdate. It provides a modern, responsive interface with real-time updates and beautiful visualizations.
 
 ## 📊 Features
 
 ### 🎂 Birth Details
-- Exact birth date
+- Exact birthdate
 - Day of the week
 - Leap year status
 - Moon phase
@@ -73,11 +86,6 @@ This application calculates and displays various statistics and interesting fact
 - **@hebcal/core** - Hebrew calendar support
 - **hijri-date** - Islamic calendar calculations
 
-### Development Tools
-- **ESLint** - Code linting
-- **Prettier** - Code formatting
-- **TypeScript** - Static type checking
-
 ## 🚀 Getting Started
 
 1. Clone the repository
@@ -87,23 +95,33 @@ git clone https://github.com/EduardoProfe666/birthday-statistics.git
 
 2. Install dependencies
 ```bash
-npm install
+yarn install
 ```
 
 3. Start development server
 ```bash
-npm run dev
+yarn run dev
 ```
 
 4. Build for production
 ```bash
-npm run build
+yarn run build
 ```
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/EduardoProfe666/birthday-statistics/issues).
+<!-- MARKDOWN LINKS & BADGES -->
+[svelte-badge]: https://img.shields.io/badge/Svelte-F04E1E?style=for-the-badge&logo=svelte&logoColor=white
+[svelte-url]: https://svelte.dev/
+[vite-badge]: https://img.shields.io/badge/Vite-24ea1b?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev/
+[tailwind-badge]: https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[tailwind-url]: https://tailwindcss.com/
+[ts-badge]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[ts-url]: https://www.typescriptlang.org/
+[license-badge]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+[license-url]: https://opensource.org/licenses/MIT
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge
+[prs-url]: http://makeapullrequest.com/

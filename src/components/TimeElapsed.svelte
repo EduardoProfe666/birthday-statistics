@@ -19,7 +19,7 @@
       <Calendar class="text-purple-500" />
       <div>
         <div class="text-sm opacity-75">Centuries</div>
-        <div class="stat-value">{metrics.centuries}</div>
+        <div class="stat-value">{metrics.centuries.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -27,7 +27,7 @@
       <Calendar class="text-blue-500" />
       <div>
         <div class="text-sm opacity-75">Decades</div>
-        <div class="stat-value">{metrics.decades}</div>
+        <div class="stat-value">{metrics.decades.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -35,7 +35,7 @@
       <Calendar class="text-green-500" />
       <div>
         <div class="text-sm opacity-75">Quinquenniums</div>
-        <div class="stat-value">{metrics.quinquenniums}</div>
+        <div class="stat-value">{metrics.quinquenniums.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -43,7 +43,7 @@
       <Calendar class="text-yellow-500" />
       <div>
         <div class="text-sm opacity-75">Years</div>
-        <div class="stat-value">{metrics.years}</div>
+        <div class="stat-value">{metrics.years.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -51,7 +51,7 @@
       <Calendar class="text-red-500" />
       <div>
         <div class="text-sm opacity-75">Months</div>
-        <div class="stat-value">{metrics.months}</div>
+        <div class="stat-value">{metrics.months.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -59,7 +59,7 @@
       <Calendar class="text-indigo-500" />
       <div>
         <div class="text-sm opacity-75">Weeks</div>
-        <div class="stat-value">{metrics.weeks}</div>
+        <div class="stat-value">{metrics.weeks.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -67,7 +67,7 @@
       <Sun class="text-orange-500" />
       <div>
         <div class="text-sm opacity-75">Days</div>
-        <div class="stat-value">{metrics.days}</div>
+        <div class="stat-value">{metrics.days.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -75,7 +75,7 @@
       <Clock class="text-teal-500" />
       <div>
         <div class="text-sm opacity-75">Hours</div>
-        <div class="stat-value">{metrics.hours}</div>
+        <div class="stat-value">{metrics.hours.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -83,7 +83,7 @@
       <Watch class="text-pink-500" />
       <div>
         <div class="text-sm opacity-75">Minutes</div>
-        <div class="stat-value">{metrics.minutes}</div>
+        <div class="stat-value">{metrics.minutes.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -91,7 +91,7 @@
       <Watch class="text-cyan-500" />
       <div>
         <div class="text-sm opacity-75">Seconds</div>
-        <div class="stat-value">{metrics.seconds}</div>
+        <div class="stat-value">{metrics.seconds.toLocaleString('en-US')}</div>
       </div>
     </div>
   </div>

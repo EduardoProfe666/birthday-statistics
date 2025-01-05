@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Lunar } from 'lunar-javascript';
 
 export function getMoonPhase(date: Date): string {

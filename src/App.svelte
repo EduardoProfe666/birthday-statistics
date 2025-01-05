@@ -10,7 +10,6 @@
   import LifeStatistics from './components/LifeStatistics.svelte';
   import DateInput from './components/DateInput.svelte';
   import GithubButton from './components/GithubButton.svelte';
-  import { Moon } from 'lucide-svelte';
 
   let birthDate: Date | null = null;
   let updateInterval: number;
@@ -34,8 +33,7 @@
   <div class="max-w-7xl mx-auto">
     <header class="text-center mb-8">
       <h1 class="text-4xl font-bold flex items-center justify-center gap-2 mb-2">
-        <Moon class="text-primary" />
-        Life Statistics Calculator
+        Birthday Statistics Calculator
       </h1>
       <DateInput bind:value={birthDate} />
     </header>

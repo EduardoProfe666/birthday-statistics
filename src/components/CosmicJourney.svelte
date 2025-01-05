@@ -21,7 +21,7 @@
       <Sun class="text-yellow-500" />
       <div>
         <div class="text-sm opacity-75">Solar Orbits</div>
-        <div class="stat-value">{metrics.solarOrbits}</div>
+        <div class="stat-value">{metrics.solarOrbits.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -29,7 +29,7 @@
       <Globe2 class="text-blue-500" />
       <div>
         <div class="text-sm opacity-75">Earth Rotations</div>
-        <div class="stat-value">{metrics.earthRotations.toLocaleString()}</div>
+        <div class="stat-value">{metrics.earthRotations.toLocaleString('en-US')}</div>
       </div>
     </div>
     
@@ -37,7 +37,10 @@
       <Rocket class="text-purple-500" />
       <div>
         <div class="text-sm opacity-75">Distance Traveled (billion km)</div>
-        <div class="stat-value">{metrics.distanceTraveled.toFixed(2)}</div>
+        <div class="stat-value">{metrics.distanceTraveled.toLocaleString('en-US', {
+          minimumFractionDigits: 0,
+          maximumFractionDigits: 3
+        })}</div>
       </div>
     </div>
 
@@ -45,7 +48,7 @@
       <Leaf class="text-green-500" />
       <div>
         <div class="text-sm opacity-75">Seasons Experienced</div>
-        <div class="stat-value">{seasonsExperienced}</div>
+        <div class="stat-value">{seasonsExperienced.toLocaleString('en-US')}</div>
       </div>
     </div>
   </div>

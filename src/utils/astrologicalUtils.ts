@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Lunar } from 'lunar-javascript';
 
 const ZODIAC_SIGNS = [
@@ -55,7 +56,8 @@ export function getWesternZodiac(date: Date): string {
 
 export function getChineseZodiac(date: Date): string {
   const lunar = Lunar.fromDate(date);
-  const chineseSign = lunar.getYearShengXiao();
+  const chineseSign = lunar.getYearShengXiao() as string;
+  // @ts-ignore
   const englishTranslation = CHINESE_ZODIAC_TRANSLATIONS[chineseSign] || '';
   return `${chineseSign} (${englishTranslation})`;
 }

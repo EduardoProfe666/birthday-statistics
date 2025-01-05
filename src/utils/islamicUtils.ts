@@ -1,3 +1,4 @@
+// @ts-ignore
 import HijriDate from 'hijri-date';
 
 const ISLAMIC_MONTHS = [
